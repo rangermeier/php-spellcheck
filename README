@@ -1,0 +1,17 @@
+This is an implementation of Norvig's spellchecker [1] based
+on Joe Sander's port to PHP [2].
+
+Main differences from Joe's try:
+- the code is wrapped in an class
+- it's working
+- i rewired some of the algorhithms to be closer to what Norvig
+  suggested
+
+known shortcommings:
+- it's slow
+- it needs lots of RAM, i run it via the php-cli with a memory 
+  limit of 512MB
+
+
+[1] http://norvig.com/spell-correct.html
+[2] http://soundofemotion.com/spellcorrect.txt
